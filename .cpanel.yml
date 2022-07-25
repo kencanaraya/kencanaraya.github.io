@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1808991/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index_backup.html $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp service.html $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
+    - /bin/cp script2.js $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp styletwo.css $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+  
