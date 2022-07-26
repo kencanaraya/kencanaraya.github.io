@@ -12,4 +12,5 @@ deployment:
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp styletwo.css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R files $DEPLOYPATH
   
