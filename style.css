@@ -362,6 +362,11 @@ footer{
     background-color: black;
 }
 
+.paddingbottomtwo{
+    padding-bottom:80px;
+    background-color: #000000;
+}
+
 .brochure{
     display: flex;
     align-items: center;
@@ -403,7 +408,7 @@ body.bodyContact{
     flex-direction: column;
     font-family:'Montserrat', sans-serif;
     font-size: 10px;
-    height: 100vh;
+    height: 100%;
     margin: -20px 0 50px;
     padding: 10px;
     background-color: black;
@@ -505,6 +510,7 @@ footer{
 #contact{
     flex-direction: row;
 }
+
 
 /*Responsive Breakpoint*/
 /*Ukuran Tablet*/
