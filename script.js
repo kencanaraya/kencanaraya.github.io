@@ -6,6 +6,7 @@ var time = 3000;
 images[0]= "/images/bkgndImage1.png";
 images[1]= "/images/bkgndImage2.png";
 images[2]= "/images/bkgndImage3.png";
+images[3]= "/images/bkgndImage4.png";
 
 //ganti gambar
 function gantiGambar(){

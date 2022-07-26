@@ -362,6 +362,36 @@ footer{
     background-color: black;
 }
 
+.brochure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.downloadArea{
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* Style buttons */
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    justify-items: center;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
 /*contact*/
 
 
