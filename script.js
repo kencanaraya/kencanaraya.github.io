@@ -23,4 +23,52 @@ function gantiGambar(){
 
 window.onload=gantiGambar;
 
+//ganti gambar 
 
+$(document).ready(function(){
+
+    $(".exit1").hide();
+
+    $(".clean1").hover(function(){
+        $(".clean1").fadeOut();
+        $(".exit1").fadeIn();
+    });    
+
+    $(".clean1").mouseleave(function(){
+        $(".exit1").fadeOut();
+        $(".clean1").fadeIn();
+    });    
+
+});
+
+$(document).ready(function(){
+
+    $(".exit2").hide();
+
+    $(".clean2").hover(function(){
+        $(".clean2").fadeOut();
+        $(".exit2").fadeIn();
+    });    
+
+    $(".clean2").mouseleave(function(){
+        $(".exit2").fadeOut();
+        $(".clean2").fadeIn();
+    });    
+
+});
+
+$(document).ready(function(){
+
+    $(".exit3").hide();
+
+    $(".clean3").hover(function(){
+        $(".clean3").fadeOut();
+        $(".exit3").fadeIn();
+    });    
+
+    $(".clean3").mouseleave(function(){
+        $(".exit3").fadeOut();
+        $(".clean3").fadeIn();
+    });    
+
+});

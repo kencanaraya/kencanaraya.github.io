@@ -346,12 +346,58 @@ footer{
     text-align: center;
 }
 
-.card-img-top{
+.card{
+    justify-content: center;
+    position: relative;
+}
+
+.clean1{
     height: 200px;
     width: 200px;
     padding-left: 50px;
     padding-right: 50px;
 }
+.clean2{
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.clean3{
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.exit1{
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.exit2{
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.exit3{
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 #emptyspace{
     padding-bottom: 100px;
