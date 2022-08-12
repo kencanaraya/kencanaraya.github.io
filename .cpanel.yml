@@ -7,10 +7,8 @@ deployment:
     - /bin/cp about.html $DEPLOYPATH
     - /bin/cp contact.html $DEPLOYPATH
     - /bin/cp service.html $DEPLOYPATH
-    - /bin/cp script.js $DEPLOYPATH
-    - /bin/cp script2.js $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp styletwo.css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R files $DEPLOYPATH
   
